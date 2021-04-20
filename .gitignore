@@ -1,2 +1,6 @@
 __sapper__
 node_modules
+
+*.iml
+*.iws
+*.ipr
