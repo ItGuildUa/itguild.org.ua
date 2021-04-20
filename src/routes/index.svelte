@@ -52,7 +52,7 @@
               <div class="mt-4 sm:mt-0 sm:ml-3">
                 <button
                   type="submit"
-                  class="flex w-full rounded-md border border-transparent px-3 py-3 bg-gray-600 text-base font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
+                  class="flex w-full rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
                   >Приєднатися
                   <span class="ml-2">
                     <svg
