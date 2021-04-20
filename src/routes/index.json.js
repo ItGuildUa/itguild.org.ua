@@ -1,13 +1,16 @@
 import main from "../content/main.md";
+import { VotesService } from "../services/votes.service";
+
+const votesService = new VotesService();
 
 main.html = main.html.replace(/^\t{3}/gm, '');
-
-const content = JSON.stringify(main);
 
 export function get(req, res) {
   res.writeHead(200, {
     'Content-Type': 'application/json'
   });
 
-  res.end(content);
+  const dataToSend = JSON.stringify({ content: main, votes: votesService.store.value });
+
+  res.end(dataToSend);
 }
