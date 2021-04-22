@@ -79,7 +79,7 @@
 
       <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
         <div
-          class="py-12 sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
+          class="py-12 hidden lg:block sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
         >
           <div
             class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full"
