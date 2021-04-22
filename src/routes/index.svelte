@@ -35,7 +35,8 @@
             <div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
               <div class="space-x-2 flex">
                 <a href="https://www.patreon.com/itguildukraine"
-                  class="flex rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4">
+                  class="flex rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
+                  target="_blank">
                   Приєднатися
                   <span class="ml-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -44,7 +45,8 @@
                   </span>
                 </a>
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegBeWsOUHFEAwTgaUetCU6mylzTdHJHY1e0ESYY5EAyaaXRw/viewform"
-                   class="flex rounded-md border border-transparent px-3 py-3 bg-gray-600 text-base font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4">
+                   class="flex rounded-md border border-transparent px-3 py-3 bg-gray-600 text-base font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
+                   target="_blank">
                   Заповнити анкету
                   <span class="ml-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -139,7 +141,7 @@
         </svg>
       </a>
 
-      <a href="https://github.com/ItGuildUa" class="text-gray-400 hover:text-gray-500">
+      <a href="https://github.com/ItGuildUa" class="text-gray-400 hover:text-gray-500" target="_blank">
         <span class="sr-only">GitHub</span>
         <svg
           class="h-6 w-6"
