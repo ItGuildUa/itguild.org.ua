@@ -4,3 +4,5 @@ node_modules
 *.iml
 *.iws
 *.ipr
+
+.idea
