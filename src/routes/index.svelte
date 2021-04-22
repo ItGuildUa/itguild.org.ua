@@ -19,20 +19,20 @@
 
 <div class="hero">
   <div class="pb-8 sm:pb-2 lg:pb-2">
-    <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-8">
+    <div class="pt-4 overflow-hidden sm:pt-12 lg:relative lg:py-4">
       <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
           <div>
             <img class="lg:h-72 md:h-auto sm:h-auto w-auto" src="images/logo.png" alt="IT Guild logo" />
           </div>
-          <div class="mt-20">
-            <div class="mt-6 sm:max-w-xl">
-              <p class="mt-6 text-xl text-gray-500">
+          <div class="mt-4">
+            <div class="mt-3 sm:max-w-xl">
+              <p class="mt-3 text-xl text-gray-500">
                 Наша мета — представляти та захищати інтереси ІТ фахівців перед
                 державою та бізнесом.
               </p>
             </div>
-            <div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
+            <div class="mt-6 sm:max-w-lg sm:w-full sm:flex">
               <div class="space-x-2 flex">
                 <a href="https://www.patreon.com/itguildukraine"
                   class="flex rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
@@ -77,12 +77,8 @@
       </div>
 
       <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-        <div
-          class="py-12 hidden lg:block sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
-        >
-          <div
-            class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full"
-          >
+        <div class="py-12 hidden lg:block sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full">
           </div>
         </div>
       </div>
@@ -142,7 +138,7 @@
       </a>
     </div>
     <p class="mt-8 text-center text-base text-gray-400">
-      © {new Date().getFullYear()} It Guild Ukraine . All rights reserved.
+      © {new Date().getFullYear()} IT Guild Ukraine . All rights reserved.
     </p>
   </div>
 </footer>
