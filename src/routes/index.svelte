@@ -35,40 +35,28 @@
                 державою та бізнесом.
               </p>
             </div>
-            <form action="#" class="mt-12 sm:max-w-lg sm:w-full sm:flex">
-              <div class="min-w-0 flex-1">
-                <label for="hero_email" class="sr-only">Вкажіть адресу</label>
-                <input
-                  id="hero_email"
-                  type="email"
-                  class="block outline-none w-full border-2 border-gray-300 rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-gray-500 focus:ring-gray-500"
-                  placeholder="your@email.com"
-                />
-              </div>
-              <div class="mt-4 sm:mt-0 sm:ml-3">
-                <button
-                  type="submit"
-                  class="flex w-full rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
-                  >Приєднатися
+            <div class="mt-12 sm:max-w-lg sm:w-full sm:flex">
+              <div class="space-x-2 flex">
+                <a href="https://www.patreon.com/itguildukraine"
+                  class="flex rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4">
+                  Приєднатися
                   <span class="ml-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      class="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
                     </svg>
                   </span>
-                </button>
+                </a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSegBeWsOUHFEAwTgaUetCU6mylzTdHJHY1e0ESYY5EAyaaXRw/viewform"
+                   class="flex rounded-md border border-transparent px-3 py-3 bg-gray-600 text-base font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4">
+                  Заповнити анкету
+                  <span class="ml-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                  </span>
+                </a>
               </div>
-            </form>
+            </div>
             <div class="mt-8 flex flex-col">
               {#if votes}
                 <div class="text-xl">
