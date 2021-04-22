@@ -23,7 +23,7 @@
       <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
           <div>
-            <img class="h-72 w-auto" src="images/logo.png" alt="itguild logo" />
+            <img class="lg:h-72 md:h-auto sm:h-auto w-auto" src="images/logo.png" alt="IT Guild logo" />
           </div>
           <div class="mt-20">
             <div class="mt-6 sm:max-w-xl">
