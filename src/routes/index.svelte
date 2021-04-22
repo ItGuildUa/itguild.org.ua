@@ -19,17 +19,14 @@
 
 <div class="hero">
   <div class="pb-8 sm:pb-12 lg:pb-12">
-    <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
+    <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-8">
       <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
           <div>
-            <img class="h-36 w-auto" src="images/logo.png" alt="itguild logo" />
+            <img class="h-72 w-auto" src="images/logo.png" alt="itguild logo" />
           </div>
           <div class="mt-20">
             <div class="mt-6 sm:max-w-xl">
-              <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
-                Гільдія ІТ фахівців України
-              </h1>
               <p class="mt-6 text-xl text-gray-500">
                 Наша мета — представляти та захищати інтереси ІТ фахівців перед
                 державою та бізнесом.
@@ -84,11 +81,6 @@
           <div
             class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full"
           >
-            <img
-              class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-              src="images/hero.jpeg"
-              alt="Hero"
-            />
           </div>
         </div>
       </div>
