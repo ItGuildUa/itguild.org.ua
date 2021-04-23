@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "PORT=8080 sapper dev",
     "build": "sapper build",
-    "export": "sapper export",
+    "export": "sapper export; echo \"</body></html>\" >> __sapper__/export/index.html",
     "start": "PORT=8080 node __sapper__/build"
   },
   "dependencies": {
