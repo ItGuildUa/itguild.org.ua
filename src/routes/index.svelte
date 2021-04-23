@@ -107,7 +107,7 @@
         </svg>
       </a>
 
-      <a href="/" class="text-gray-400 hover:text-gray-500">
+      <a href="https://twitter.com/itguildua" class="text-gray-400 hover:text-gray-500">
         <span class="sr-only">Twitter</span>
         <svg
           class="h-6 w-6"
