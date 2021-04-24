@@ -4,7 +4,7 @@ title: Manifesto · The IT Specialists Guild of Ukraine
 
 # The Manifesto
 
-Enough talking, it's time to act! It is time for IT professionals to unite and defend their rights and interests together.
+Enough talking, it's time to act! It is time for IT specialists to unite and defend their rights and interests together.
 
 For thousands of years, humans united in guilds, workshops, and trade unions. Some of those organizations are very mighty and have huge power in society. The Screen Actors Guild grants the Oscar award, the trade union Solidarność (Solidarity) triggered Polish liberation from communists. Opinions of Ukrainian IT associations are accounted for by deputies.
 
@@ -18,7 +18,7 @@ The time has come for us to create a legitimate, independent, and democratic uni
 - Constructively cooperate with other civic organizations, associations, clusters, and Ukrainian IT industry companies.
 - Participate in modernization and improvement of education quality, cooperate with educational institutions, civic organizations, develop education programs, etc.
 - Cooperate with media, popularize and promote positions of the Guild in Ukrainian and world media, promote authority and prestige of trade.
-- Provide legal, media, and any other legal support to the members of the Guild in case of disputes with an employer or contractor.
+- Provide juristical, media, and any other legal support to the members of the Guild in case of disputes with an employer or contractor.
 - Combat unethical practices, which may include but not be limited to non-compliance with contracts and obligations, unpaid overtime, forced work in the office during pandemics, and others.
 - Protect members of the Guild from discrimination based on race, national origin, gender, gender identity, sexual orientation, protected veteran status, disability, age, or other legally protected status.
 
