@@ -1,6 +1,7 @@
 # Гільдія ІТ Фахівців України
 
 [Маніфест](https://github.com/ItGuildUa/itguild.org.ua/blob/master/src/content/main.md)
+[Manifesto in English](https://github.com/ItGuildUa/itguild.org.ua/blob/master/src/content/manifesto-en.md)
 
 # Development
 
