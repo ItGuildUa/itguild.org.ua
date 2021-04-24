@@ -59,7 +59,7 @@
             <div class="mt-6 sm:max-w-lg sm:w-full sm:flex">
               <div class="space-x-2 flex">
                 <a href="https://t.me/itguildukraine" id="tg"
-                   class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
+                   class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
                    target="_blank">
                   Телеграм
                   <span class="ml-2">
