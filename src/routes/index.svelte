@@ -2,15 +2,14 @@
   export function preload() {
     return this.fetch(`index.json`)
       .then((r) => r.json())
-      .then(({ content, votes }) => {
-        return { content, votes };
+      .then((content) => {
+        return { content };
       });
   }
 </script>
 
 <script>
   export let content;
-  export let votes;
 </script>
 
 <svelte:head>
@@ -69,22 +68,6 @@
                   </span>
                 </a>
               </div>
-            </div>
-            <div class="mt-8 flex flex-col">
-              {#if votes}
-                <div class="text-xl">
-                  <span>Підтримай нашу петицію: </span>
-                  <a
-                    href="https://petition.president.gov.ua/petition/114468"
-                    class="ml-2 underline hover:text-blue-600"
-                    target="_blank">Стоп Дія Сіті</a
-                  >
-                </div>
-                <div class="mt-2 flex items-center">
-                  <span>Наразі підписало:</span>
-                  <span class="ml-4 text-3xl font-bold">{votes}</span>
-                </div>
-              {/if}
             </div>
           </div>
         </div>
