@@ -1,6 +1,6 @@
 __sapper__
 node_modules
-
+tmp/
 *.iml
 *.iws
 *.ipr
