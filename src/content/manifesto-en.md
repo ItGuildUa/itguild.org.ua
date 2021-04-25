@@ -6,7 +6,7 @@ title: Manifesto · The IT Specialists Guild of Ukraine
 
 Enough talking, it's time to act! It is time for IT specialists to unite and defend their rights and interests together.
 
-For thousands of years, humans united in guilds, workshops, and trade unions. Some of those organizations are very mighty and have huge power in society. The Screen Actors Guild grants the Oscar award, the trade union Solidarność (Solidarity) triggered Polish liberation from communists. Opinions of Ukrainian IT associations are accounted for by deputies.
+For thousands of years, humans united in guilds, workshops, and trade unions. Some of those organizations are very mighty and have huge power in society. The Academy of Motion Picture Arts and Sciences grants the Oscar award, the trade union «Solidarity» («Solidarność») triggered Polish liberation from communists. Opinions of Ukrainian IT associations are accounted for by deputies.
 
 The time has come for us to create a legitimate, independent, and democratic union - The Guild of IT Specialists.
 
