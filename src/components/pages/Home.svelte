@@ -4,17 +4,17 @@
 
   const locales = {
     ua: {
-      title: "Наша мета — представляти та захищати інтереси ІТ фахівців перед державою та бізнесом.",
+      title:
+        "Наша мета — представляти та захищати інтереси ІТ фахівців перед державою та бізнесом.",
       joinBtn: "Приєднатися",
-      fillFormBtn: "Заповнити анкету",
-      tgBtn: "Телеграм"
+      tgBtn: "Телеграм",
     },
     en: {
-      title: "Our mission — protect rights and interests of all Ukrainian IT specialists",
+      title:
+        "Our mission — protect rights and interests of all Ukrainian IT specialists",
       joinBtn: "Join",
-      fillFormBtn: "Fill form",
-      tgBtn: "Telegram"
-    }
+      tgBtn: "Telegram",
+    },
   };
 
   const locale = locales[lang];
@@ -23,10 +23,16 @@
 <div class="hero">
   <div class="pb-8 sm:pb-2 lg:pb-2">
     <div class="pt-4 overflow-hidden sm:pt-12 lg:relative lg:py-4">
-      <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
+      <div
+        class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24"
+      >
         <div>
           <div>
-            <img class="lg:h-72 md:h-auto sm:h-auto w-auto" src="images/logo.png" alt="IT Guild logo" />
+            <img
+              class="lg:h-72 md:h-auto sm:h-auto w-auto"
+              src="images/logo.png"
+              alt="IT Guild logo"
+            />
           </div>
           <div class="mt-4">
             <div class="mt-3 sm:max-w-xl">
@@ -34,39 +40,51 @@
                 {locale.title}
               </p>
             </div>
-            <div class="mt-6 sm:max-w-lg sm:w-full sm:flex">
+            <div class="my-6 sm:max-w-lg sm:w-full sm:flex">
               <div class="space-x-2 flex">
-                <a href="https://www.patreon.com/itguildukraine" id="patreon"
+                <a
+                  href="https://www.patreon.com/itguildukraine"
+                  id="patreon"
                   class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-red-600 text-base font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
-                  target="_blank">
+                  target="_blank"
+                >
                   {locale.joinBtn}
                   <span class="ml-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
                     </svg>
                   </span>
                 </a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSegBeWsOUHFEAwTgaUetCU6mylzTdHJHY1e0ESYY5EAyaaXRw/viewform" id="google-form"
-                   class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-gray-600 text-base font-medium text-white shadow hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
-                   target="_blank">
-                  {locale.fillFormBtn}
-                  <span class="ml-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                    </svg>
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div class="mt-6 sm:max-w-lg sm:w-full sm:flex">
-              <div class="space-x-2 flex">
-                <a href="https://t.me/itguildukraine" id="tg"
-                   class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
-                   target="_blank">
+                <a
+                  href="https://t.me/itguildukraine"
+                  id="tg"
+                  class="flex items-center justify-center rounded-md border border-transparent px-3 py-3 bg-blue-500 text-base font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 sm:px-4"
+                  target="_blank"
+                >
                   {locale.tgBtn}
                   <span class="ml-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
-                      <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telegram"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                      />
                     </svg>
                   </span>
                 </a>
@@ -77,9 +95,12 @@
       </div>
 
       <div class="sm:mx-auto sm:max-w-3xl sm:px-6">
-        <div class="py-12 hidden lg:block sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full">
-          </div>
+        <div
+          class="py-12 hidden lg:block sm:relative sm:mt-12 sm:py-16 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"
+        >
+          <div
+            class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full"
+          />
         </div>
       </div>
     </div>
@@ -91,7 +112,10 @@
 <footer>
   <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
     <div class="mt-8 flex justify-center space-x-6">
-      <a href="https://www.facebook.com/itguildua" class="text-gray-400 hover:text-gray-500">
+      <a
+        href="https://www.facebook.com/itguildua"
+        class="text-gray-400 hover:text-gray-500"
+      >
         <span class="sr-only">Facebook</span>
         <svg
           class="h-6 w-6"
@@ -107,7 +131,10 @@
         </svg>
       </a>
 
-      <a href="https://twitter.com/itguildua" class="text-gray-400 hover:text-gray-500">
+      <a
+        href="https://twitter.com/itguildua"
+        class="text-gray-400 hover:text-gray-500"
+      >
         <span class="sr-only">Twitter</span>
         <svg
           class="h-6 w-6"
@@ -121,7 +148,11 @@
         </svg>
       </a>
 
-      <a href="https://github.com/ItGuildUa" class="text-gray-400 hover:text-gray-500" target="_blank">
+      <a
+        href="https://github.com/ItGuildUa"
+        class="text-gray-400 hover:text-gray-500"
+        target="_blank"
+      >
         <span class="sr-only">GitHub</span>
         <svg
           class="h-6 w-6"
